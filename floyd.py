@@ -4,7 +4,7 @@ import numpy as np
 import math
 
 def path_matrix(a):
-    # a为最短路径矩阵
+    # a为邻接矩阵/最短路径矩阵
     n = len(a)
     path = -1 * np.ones((n, n))  # 中间点矩阵/状态转移矩阵
 
@@ -45,7 +45,7 @@ def floyd(a):
                 print(str(trail).replace(', ', '--').replace('.0', ''))
 
 
-if __name__ == __main__:
+if __name__ == '__main__':
     a = np.array([[0, 5, float('inf'), 7], [float('inf'), 0, 4, 2],
                   [3, 3, 0, 2], [float('inf'), float('inf'), 1, 0]])   # 邻接矩阵
     floyd(a)
