@@ -1,4 +1,4 @@
-# optimization_algorithm-
+# optimization_algorithm
 各种优化算法的原理和代码实现
 
 ## 离散优化问题常用的基本求解方法
