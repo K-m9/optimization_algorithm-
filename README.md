@@ -22,7 +22,7 @@
     而在需要时再找出已求得的答案**，这样就可以避免大量的重复计算，节省时间。
     我们可以用一个表来记录所有已解的子问题的答案。不管该子问题以后是否被用到，
     只要它被计算过，就将其结果填入表中。这就是动态规划法的基本思路。
-  - <font color=#00ffff>[floyd算法](https://github.com/K-m9/optimization_algorithms/blob/master/Floyd%E7%AE%97%E6%B3%95.pdf) 和  [python代码实现](https://baike.baidu.com/item/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95/3387637)</font><br>
+  - <font color=#00ffff>[floyd算法](https://github.com/K-m9/optimization_algorithms/blob/master/Floyd%E7%AE%97%E6%B3%95.pdf) 和  [python代码实现](https://github.com/K-m9/optimization_algorithms/blob/master/floyd.py)</font><br>
   - <font color=#00ffff>[Dijkstra算法](https://zhuanlan.zhihu.com/p/63395403) 和python代码实现<br></font><br><br>
 - （3）[智能算法](https://my.oschina.net/thinwonton/blog/3133222)
     - 指导性搜索法
